@@ -7,7 +7,7 @@ namespace Tyuiu.MolkovIS.Sprint6.Task0.V6.Lib
         {
             double underRoot = x * x + x;
             double root = Math.Sqrt(underRoot);
-            return ((double)x)/root;
+            return Math.Round(((double)x)/root);
         }
     }
 }

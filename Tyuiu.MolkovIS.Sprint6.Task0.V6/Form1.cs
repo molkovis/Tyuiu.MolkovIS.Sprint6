@@ -22,7 +22,7 @@ namespace Tyuiu.MolkovIS.Sprint6.Task0.V6
                     return;
                 }
 
-                textBoxResult_MIS.Text = Math.Round(ds.Calculate(x), 3).ToString();
+                textBoxResult_MIS.Text = ds.Calculate(x).ToString();
             }
             catch (Exception ex)
             {
