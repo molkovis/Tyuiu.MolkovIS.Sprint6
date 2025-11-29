@@ -11,7 +11,7 @@ namespace Tyuiu.MolkovIS.Sprint6.Task2.V19.Lib
 
             for (int x = startValue; x <= stopValue; x++)
             {
-                double denom = Math.Cos(x) + 1;
+                double denom = x + 1.7;
 
                 if (denom == 0)
                 {
@@ -19,7 +19,7 @@ namespace Tyuiu.MolkovIS.Sprint6.Task2.V19.Lib
                 }
                 else
                 {
-                    double value = 3 * x + 2 - (x / denom);
+                    double value = (Math.Sin(x))/(denom) - Math.Cos(x) * 4 * x - 6;
                     mass[count] += Math.Round(value, 2);
                 }
                 count++;
