@@ -23,7 +23,7 @@ namespace Tyuiu.MolkovIS.Sprint6.Task4.V17
                     return;
                 }
 
-                // Генерация X
+                
                 int len = (stop - start) + 1;
                 int[] xValues = new int[len];
                 for (int i = 0; i < len; i++)
@@ -31,10 +31,10 @@ namespace Tyuiu.MolkovIS.Sprint6.Task4.V17
                     xValues[i] = start + i;
                 }
 
-                // Получение Y из библиотеки
+                
                 double[] yValues = ds.GetMassFunction(start, stop);
 
-                // Вывод в TextBox (не меняется)
+                
                 textBoxResult.Clear();
                 textBoxResult.Text = "+----------+----------+" + Environment.NewLine;
                 textBoxResult.Text += "|    X     |   F(X)   |" + Environment.NewLine;
