@@ -11,7 +11,7 @@ namespace Tyuiu.MolkovIS.Sprint6.Task6.V18.Lib
             char[] separators = new char[] { ' ', '\n'};
 
 
-            string[] words = text.Split(" ");
+            string[] words = text.Split(separators);
 
             StringBuilder res = new StringBuilder();
             foreach (string word in words)
