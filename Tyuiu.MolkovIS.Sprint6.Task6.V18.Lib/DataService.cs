@@ -21,7 +21,7 @@ namespace Tyuiu.MolkovIS.Sprint6.Task6.V18.Lib
                     res.Append(word + " ");
                 }
             }
-            return res.ToString();
+            return res.ToString().Trim();
         }
     }
 }
