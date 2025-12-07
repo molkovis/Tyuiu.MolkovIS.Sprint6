@@ -8,6 +8,9 @@ namespace Tyuiu.MolkovIS.Sprint6.Task6.V18.Lib
         {
             string text = File.ReadAllText(path);
 
+            char[] separators = new char[] { ' ', '\n'};
+
+
             string[] words = text.Split(" ");
 
             StringBuilder res = new StringBuilder();
