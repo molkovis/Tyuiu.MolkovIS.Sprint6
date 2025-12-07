@@ -18,7 +18,7 @@ namespace Tyuiu.MolkovIS.Sprint6.Task6.V18.Lib
             {
                 if (word.Contains("n"))
                 {
-                    res.Append(word);
+                    res.Append(word + " ");
                 }
             }
             return res.ToString();
