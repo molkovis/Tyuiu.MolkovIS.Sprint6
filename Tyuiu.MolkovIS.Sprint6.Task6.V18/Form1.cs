@@ -48,7 +48,7 @@ namespace Tyuiu.MolkovIS.Sprint6.Task6.V18
 
         private void buttonHelp_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Таск 6 выполнил студент группы Мольков И. С.", "Справка");
+            MessageBox.Show("Таск 6 выполнил студент Мольков И. С.", "Справка");
         }
     }
 }
